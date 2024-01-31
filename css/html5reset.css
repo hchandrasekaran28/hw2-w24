@@ -3,6 +3,40 @@
    License: none (public domain)
 */
 
+body{
+	font-family:Arial, Verdana;
+	background-color: #000000;
+	font: #ffffff;
+	margin:20,20,0,20;
+}
+h1{
+	text-align:center;
+	font-size: 42px;
+	padding: 15px;
+}
+h2{
+	font:#0d0d0d;
+	font-size:30px;
+}
+p{
+	font-size:24px;
+	padding-top:10x;
+	padding-left:10px;
+}
+img{
+	width:250px;
+	display: block;
+	margin:auto;
+	border: 10px dashed #ffffff;
+}
+div{
+	min-height:250px;
+	margin: auto;
+	display: block;
+	border: 3px solid #ffffff;
+}
+/*ended on step 8*/
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
