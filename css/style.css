@@ -1,8 +1,8 @@
 body{
 	font-family:Arial, Verdana;
 	background-color: #000000;
-	font: #ffffff;
-	margin:20,20,0,20;
+	color: #ffffff;
+	margin:20px 20px 0px 20px;
 }
 h1{
 	text-align:center;
@@ -10,18 +10,18 @@ h1{
 	padding: 15px;
 }
 h2{
-	font:#0d0d0d;
-	font-size:30px;
+	font:30px #0d0d0d;
 }
 p{
 	font-size:24px;
-	padding-top:10x;
+	padding-top:10px;
 	padding-left:10px;
 }
 img{
 	width:250px;
 	display: block;
-	margin:auto;
+	margin-left: auto;
+    margin-right: auto;
 	border: 10px dashed #ffffff;
 }
 div{
@@ -39,33 +39,37 @@ div{
 	background-color: #ff0000;
 	text-align: right;
 	margin-left: 50px;
-	border-bottom:2px;
-	border-left:5px;
+    border: 0px solid white;
+	border-bottom:2px solid white;
+	border-left:5px solid white4;
 }
 .blue{
 	background-color: #0000ff;
-	font: #c4c4c4;
+	color: #c4c4c4;
 	text-align: left;
 	margin-right: 50px;
-	border-right: 5px;
-	border-top: 2px;
+    border: 0px solid white;
+	border-right: 5px solid white;
+	border-top: 2px solid white;
 }
 .yellow{
-	background: color #ffff00;
+	background-color: #ffff00;
 	text-align: right;
 	margin-left: 50px;
-	border-bottom: 2px;
-	border-left: 5px;
+    border: 0px solid white;
+	border-bottom: 2px solid white;
+	border-left: 5px solid white;
 }
-.yellow p{
-	font:#707070;
+.yellow p, .yellow h2{
+	color:#707070;
 }
 .green{
 	background-color:#00eb00;
 	text-align: left;
 	margin-right: 50px;
-	border-right: 5px;
-	border-top: 2px;
+    border: 0px solid white;
+	border-right: 5px solid white;
+	border-top: 2px solid white;
 }
 footer{
 	background: rgb(0,0,0);
